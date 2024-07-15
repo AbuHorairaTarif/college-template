@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+h2 {
+    font-size: 3rem;
+}
+.text-center {
+    text-align: center;
+}
+.mb-20 {
+    margin-bottom: 20px;
+}
+.mb-60 {
+    margin-bottom: 60px;
+}
+.nav__area {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 100%;
+    height: auto;
+}
+
+.nav__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__li {
+    width: 100px;
+
+}
+
+
+/* Information  */
+.information {
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+/* course__details */
+
+.course__details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* gallery */
+
+.gallery {
+    display: flex;
+}
